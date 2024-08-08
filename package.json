@@ -1,25 +1,17 @@
 {
-  "name": "express-dev",
+  "name": "exp",
   "version": "1.0.0",
   "description": "",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon main.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@github.com/ialirezaesrafili/express-dev.git"
-  },
-  "author": "Alireza Esrafili",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/ialirezaesrafili/express-dev/issues"
-  },
-  "homepage": "https://github.com/ialirezaesrafili/express-dev#readme",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "dependencies": {
-    "dotenv": "^16.4.5",
     "express": "^4.19.2",
-    "mongodb": "^6.8.0",
-    "mongoose": "^8.5.2"
+    "mongoose": "^8.5.2",
+    "nodemon": "^3.1.4"
   }
 }
